@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AvaloniaPrism_Example", "AvaloniaPrism_Example\AvaloniaPrism_Example.csproj", "{57AE926B-1A9F-4640-A040-4B5F4932FBB8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AvaloniaPrism_Example.Desktop", "AvaloniaPrism_Example.Desktop\AvaloniaPrism_Example.Desktop.csproj", "{3A5133C0-9E65-407F-A781-D2831AAAF364}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JamenetAvalonia", "JamenetAvalonia\JamenetAvalonia.csproj", "{DC85176E-2E39-4771-AA61-8673BFD16FD1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_library", "_library", "{9C7F5B57-87A8-4480-9491-579C35B78E16}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Studio", "Studio", "{70B4F813-3D50-4656-9888-664927AD22DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Partial", "Partial", "{CB92B9A7-66BB-4CF0-9642-F7CCD119C883}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{20F05820-0DF8-400F-8AD9-6649F1964955}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AvaloniaPrism.Forms", "AvaloniaPrism.Forms\AvaloniaPrism.Forms.csproj", "{B8D3BF68-05EC-4F94-8BF3-A428EC69CD6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaloniaPrism.Main", "AvaloniaPrism.Main\AvaloniaPrism.Main.csproj", "{28BF97DC-B032-4FD4-B8EC-E715C27FEF9C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57AE926B-1A9F-4640-A040-4B5F4932FBB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57AE926B-1A9F-4640-A040-4B5F4932FBB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57AE926B-1A9F-4640-A040-4B5F4932FBB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57AE926B-1A9F-4640-A040-4B5F4932FBB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A5133C0-9E65-407F-A781-D2831AAAF364}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A5133C0-9E65-407F-A781-D2831AAAF364}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A5133C0-9E65-407F-A781-D2831AAAF364}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A5133C0-9E65-407F-A781-D2831AAAF364}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC85176E-2E39-4771-AA61-8673BFD16FD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC85176E-2E39-4771-AA61-8673BFD16FD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC85176E-2E39-4771-AA61-8673BFD16FD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC85176E-2E39-4771-AA61-8673BFD16FD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8D3BF68-05EC-4F94-8BF3-A428EC69CD6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8D3BF68-05EC-4F94-8BF3-A428EC69CD6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8D3BF68-05EC-4F94-8BF3-A428EC69CD6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8D3BF68-05EC-4F94-8BF3-A428EC69CD6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28BF97DC-B032-4FD4-B8EC-E715C27FEF9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28BF97DC-B032-4FD4-B8EC-E715C27FEF9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28BF97DC-B032-4FD4-B8EC-E715C27FEF9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28BF97DC-B032-4FD4-B8EC-E715C27FEF9C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{57AE926B-1A9F-4640-A040-4B5F4932FBB8} = {70B4F813-3D50-4656-9888-664927AD22DF}
+		{DC85176E-2E39-4771-AA61-8673BFD16FD1} = {9C7F5B57-87A8-4480-9491-579C35B78E16}
+		{B8D3BF68-05EC-4F94-8BF3-A428EC69CD6E} = {CB92B9A7-66BB-4CF0-9642-F7CCD119C883}
+		{28BF97DC-B032-4FD4-B8EC-E715C27FEF9C} = {CB92B9A7-66BB-4CF0-9642-F7CCD119C883}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4876CD6C-64D3-4779-A74F-F8FAE264D9D6}
+	EndGlobalSection
+EndGlobal
